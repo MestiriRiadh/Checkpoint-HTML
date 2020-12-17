@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Lato";
+}
+.About,
+.Contact {
+  height: 100vh;
+  background-color: #31395d;
+  color: white;
+}
+a {
+  color: rgba(243, 243, 243, 0.719);
+  text-decoration: none;
+  padding-bottom: 10px;
+  font-weight: 900;
+  margin-right: 15px;
+  transition: all 0.3s;
+}
+.nav {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.link {
+  display: inline;
+  float: right;
+}
+.portfolio {
+  font-weight: 900;
+  font-size: 30px;
+}
+a:hover {
+  color: white;
+  border-bottom: white 3px solid;
+}
+.fixed {
+  position: fixed;
+  width: 100%;
+  background-color: #33353b3b;
+}
+
+.contenu {
+  text-align: center;
+  padding-top: 15%;
+}
+.contenu > h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 100px;
+  color: red;
+}
+.contenu > p {
+  margin: 50px 0px;
+  font-size: 20px;
+}
+.contenu > div i {
+  margin-right: 10px;
+}
+.Contact {
+  background-color: #efc518;
+}
+.contactme {
+  padding-top: 15%;
+  text-align: center;
+  font-size: 100px;
+  font-family: Impact;
+  color: black;
+  text-transform: uppercase;
+}
+.contactme i {
+  font-size: 50px;
+  margin-right: 100px;
+  color: white;
+}
+.contactme i:last-child {
+  margin-right: 0px;
+}
+.pro {
+  background-color: #99c5d1;
+}
+.section {
+  width: 30%;
+  height: 400px;
+  background-color: #2f375b;
+  color: white;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+}
+.section img {
+  height: 60%;
+  width: 100%;
+}
+.section > div {
+  height: 40%;
+  padding: 10px 15px 30px;
+}
+.section h3 {
+  text-align: center;
+}
+.section p {
+  text-align: justify;
+  margin-top: 10px;
+}
+.section label {
+  float: right;
+  color: #444963;
+  font-weight: bold;
+}
+.section .footer {
+  padding: 15px 0;
+}
+.section button {
+  float: left;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  margin-right: 5px;
+  padding: 5px;
+  border-radius: 4px;
+}
+.final {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.title {
+  text-align: center;
+  padding-top: 50px;
+}
